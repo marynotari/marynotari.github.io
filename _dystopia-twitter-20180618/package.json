@@ -1,0 +1,17 @@
+{
+  "name": "dystopiaTwitter",
+  "version": "1.0.0",
+  "description": "An illustration for Adjacent article Summer 2018. A skull emoji appears on a map every time there is a tweet that contains the word \"dystopia\".",
+  "main": "dystopiaTwitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mary Notari with special thanks to Alden Jones, author of World Cheese Index",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "json2csv": "^3.11.5",
+    "socket.io": "^2.1.1",
+    "twitter": "^1.7.1"
+  }
+}
