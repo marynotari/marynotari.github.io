@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>A Musical Timeline of Mass Shootings</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="password.js"></script>
+
+<nav>
+  <a href="index.html">Home</a>
+  <!-- <a href="featured.html">Featured Works</a> -->
+  <a href="about.html">About</a>
+  <!-- <a href="live-art.html">Live Art</a>
+  <a href="interactive-web-apps.html">Interactive Web Apps</a>
+  <a href="physical-computation.html">Physical Computation</a>
+  <a href="audio-video.html">Audio and Video</a>
+  <a href="creative-activism.html">Creative Activism</a>
+  <a href="theatrical-works.html">Theatrical Works</a> -->
+</nav>
+
+<main>
+  <h1>An Interative Musical Timeline of 35 Years of Mass Shootings</h1>
+  <div class="hook">Data sonification using JavaScript</div>
+ 
+  <a href="https://editor.p5js.org/marynotari/full/obIm9832_" target="_blank" rel="noopener" class="launch-card">
+    <div class="launch-card-inner">
+      <span class="launch-label">▶ Launch piece</span>
+      <span class="launch-note">Opens in a new tab &mdash; includes sound</span>
+    </div>
+  </a>
+
+
+  <!-- <iframe
+    src="https://editor.p5js.org/marynotari/full/obIm9832_"
+    style="width:100%; aspect-ratio:16/9; border:none; margin-bottom:2rem; background:#000;"
+    title="A Musical Timeline of Mass Shootings">
+  </iframe> -->
+
+  <section>
+    <h2>Concept</h2>
+    <p>In 2012, the magazine Mother Jones published a crowd-sourced spreadsheet of dates, locations, casualties, and other metrics for each instance of a mass shooting that has occurred in the United States since 1982. A mass shooting is defined by the FBI and other criminal-justice experts as "a single attack in a public place in which four or more victims were killed."</p>
+        
+    <p>While the original database continues to be updated to this day, this project was created with data available up to 2018. "An Interative Musical Timeline of 35 years of Mass Shootings" is a reconceptualization of this data as a musical score.</p>
+
+    <p>Like the shootings in real life, nothing will change unless we act on it. The app hides a button that connects to anti-gun-violence resources as an attempt to connect form to function.</p>
+    
+    <p>What is the point of aestheticizing data this fraught? Can there be a tangible connection between aesthetics and action? How can music be used to make subjects that might otherwise be paralyzing and overwhelming accessible and knowable? Put another way: how can music move us?</p>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <p>Over a map of the contiguous United States, circles corresponding to the location and number of casualties for each instance of a mass shooting appear over an accelerated timeline of 35 years. The music and animation loop infinitely unless the viewer clicks a button labeled "Enough," which links to information about anti-gun-violence advocacy — leaving them with the option to call their local representative.</p>
+
+    <p>Each column within the database corresponds to different audio events executed by Tone.js and Moment.js within a p5.js sketch.Mozart's "Requiem" provides the basis for the chord progression. The audio events occur in concert with a p5.js animation over a map of the US, with the shootings visualized in their respective locations as ellipses sized according to casualty counts. Viewers may hover their mouse over each ellipse to receive a detailed description of the shooting as provided by Mother Jones.</p>
+  </section>
+
+  <section>
+    <h2>Context</h2>
+    <p>Created for the class "Interactive Music" during the Spring of 2018 at ITP at NYU Tisch School of the Arts.</p>
+  </section>
+
+  <section>
+    <h2>Credits</h2>
+    <p>Created by Mary Notari</br>
+    Tone.js created by Yotam Mann</br>
+    Original reporting by Mark Follman, Gavin Aronsen, and Deanna Pan for Mother Jones
+    </p>
+  </section>
+</main>
+
+</body>
+</html>

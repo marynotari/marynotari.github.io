@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Soul Train Machine — Mary Notari</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <script src="password.js"></script> -->
+
+<nav>
+  <a href="index.html">Home</a>
+  <!-- <a href="featured.html">Featured Works</a> -->
+  <a href="about.html">About</a>
+  <!-- <a href="live-art.html">Live Art</a>
+  <a href="interactive-web-apps.html">Interactive Web Apps</a>
+  <a href="physical-computation.html">Physical Computation</a>
+  <a href="audio-video.html">Audio and Video</a>
+  <a href="creative-activism.html">Creative Activism</a>
+  <a href="theatrical-works.html">Theatrical Works</a> -->
+</nav>
+
+<main>
+  <h1>Soul Train Machine</h1>
+  <div class="hook">An homage to Black vernacular dance</div>
+
+  <div class="photo-grid">
+    <!-- <img src="assets/soultrain.png" alt="Soul Train Machine, pose tracking in use"> -->
+    <img class="inline-image" src="assets/soultrain1.png" alt="Soul Train Machine, pose tracking in use">
+    <video autoplay loop muted playsinline>
+        <source src="assets/soultraintest.mp4" type="video/mp4">
+      </video>
+  </div>
+
+  <section>
+    <h2>Concept</h2>
+    <p>Soul Train Machine is a body tracking app where the users control music through their dance. The app pays homage to the long-running Black American tv show, <it>Soul Train</it>, that showcased the music, dance, and fashion of the day. Much of the music used in the project comes from free libraries which are often sourced from studio sessions. The project seeks to shed light onto contributions of Black artists to the world of interactive music design and highlight the cultural connection between dance, music, and AI.
+    </p>
+  </section>
+
+  <!-- <figure>
+    <video class="inline-image" src="assets/soultraintest.mp4" alt="Soul Train Machine in action">
+    <figcaption>A test of the pose detection campabilities of PoseNet.</figcaption>
+</figure> -->
+
+  <section>
+    <h2>How it works</h2>
+    <p>Using a webcam and an AI model trained on common dance moves, different poses trigger different instruments and musical flourishes through the Tone.js library.</p>
+
+    <figure>
+    <img class="inline-image" src="assets/soultrain-chart.png" alt="Soul Train Machine flowchart">
+    <figcaption>A flowchart illustrating the architecture of Soul Train Machine.</figcaption>
+</figure>
+  </section>
+
+  <section>
+    <h2>Context</h2>
+    <p>Presented as a proposal for an online installation. The full deck can be viewed <a href="https://docs.google.com/presentation/d/e/2PACX-1vS2_-tyCA6kN4xyhseqAuV4AGo_7_Ald0ReGzxbmjUb-OnNZ9-ml_y7qf-mSagB_HET6OuvO8ddFIWc/pub?start=false&loop=false&delayms=3000">here.</a></p>
+  </section>
+
+  <section>
+    <h2>Credits</h2>
+    <p>Created by Mary Notari <br>
+    Special thanks to Lisa Jamhoury</p>
+  </section>
+</main>
+
+</body>
+</html>
